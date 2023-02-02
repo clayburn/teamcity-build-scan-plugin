@@ -150,7 +150,7 @@ class BaseInitScriptTest extends Specification {
         } else {
             """
               plugins {
-                id 'com.gradle.enterprise' version '3.12.1'
+                id 'com.gradle.enterprise' version '3.12.3'
                 ${ccudPluginVersion ? "id 'com.gradle.common-custom-user-data-gradle-plugin' version '$ccudPluginVersion'" : ""}
               }
               gradleEnterprise {
